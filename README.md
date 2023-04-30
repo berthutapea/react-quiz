@@ -47,17 +47,6 @@ VITE_STORAGE_BUCKET=your_storage_bucket
 VITE_MESSAGING_SENDER_ID=your_messaging_sender_id
 VITE_APP_ID=your_app_id
 
-
-# Nodemailer
-
-SMTP_HOST =smtp.gmail.com
-SMTP_PORT =587
-EMAIL_USERNAME = example@gmail.com
-EMAIL_PASS = your_password
-```
-
-
-```
 # --- Terminal ---
 
 $ npm install (to install backend-side dependencies)
