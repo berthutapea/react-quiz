@@ -24,7 +24,7 @@ function LoginForm({ loading }) {
           autoComplete="off"
           name="email"
           placeholder="Email"
-          className="bg-neutral-50 ring-[1px] ring-gray-200 rounded-lg p-2 md:p-3 placeholder:text-gray-300 text-xs md:text-sm focus:border-none placeholder:text-xs md:placeholder:text-sm focus:outline-none focus:ring-[1px] focus:ring-blue-500/80 "
+          className="bg-neutral-50 ring-[1px] ring-gray-200 rounded-lg p-2 md:p-3 placeholder:text-gray-300 text-xs md:text-sm focus:border-none placeholder:text-xs md:placeholder:text-sm focus:outline-none focus:ring-[1px] focus:ring-orange-500/80 "
         />{" "}
         <br />
         <div className="flex justify-between items-center mb-2">
@@ -37,7 +37,7 @@ function LoginForm({ loading }) {
         </div>
         <input
           type="password"
-          className="bg-neutral-50 ring-[1px] ring-gray-200 rounded-lg p-2 md:p-3 placeholder:text-gray-300 text-xs md:text-sm focus:border-none placeholder:text-xs md:placeholder:text-sm focus:outline-none focus:ring-[1px] focus:ring-blue-500/80"
+          className="bg-neutral-50 ring-[1px] ring-gray-200 rounded-lg p-2 md:p-3 placeholder:text-gray-300 text-xs md:text-sm focus:border-none placeholder:text-xs md:placeholder:text-sm focus:outline-none focus:ring-[1px] focus:ring-orange-500/80"
           name="password"
           placeholder="Password"
         />
@@ -46,8 +46,8 @@ function LoginForm({ loading }) {
           disabled={loading}
           className={`flex rounded-full ${
             !loading
-              ? "bg-blue-700 hover:bg-neutral-50 hover:text-blue-500"
-              : "bg-blue-500/70 cursor-not-allowed"
+              ? "bg-orange-700 hover:bg-neutral-50 hover:text-orange-500"
+              : "bg-orange-500/70 cursor-not-allowed"
           }  p-1 justify-center font-semibold md:font-bold text-base md:text-lg text-center  mb-3 transition text-white`}
           type="submit"
         >
@@ -68,7 +68,7 @@ function LoginForm({ loading }) {
         </button>
         <p className="text-gray-600 text-xs font-semibold mt-3">
           Don't have account ?
-          <Link className="ml-2 text-blue-600" to={"/register"}>
+          <Link className="ml-2 text-orange-600" to={"/register"}>
             Sign Up
           </Link>{" "}
         </p>
