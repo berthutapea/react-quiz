@@ -47,6 +47,16 @@ VITE_STORAGE_BUCKET=your_storage_bucket
 VITE_MESSAGING_SENDER_ID=your_messaging_sender_id
 VITE_APP_ID=your_app_id
 
+
+# Nodemailer
+
+SMTP_HOST =smtp.gmail.com
+SMTP_PORT =587
+EMAIL_USERNAME = example@gmail.com
+EMAIL_PASS = your_password
+```
+
+
 ```
 # --- Terminal ---
 
@@ -111,8 +121,8 @@ This project was created using the following technologies.
  ##  Screenshots 
  
 
-<!-- 
-![1](https://user-images.githubusercontent.com/111676859/226197211-8abc5de5-7659-4811-b28a-ef885de64267.png)
+
+<!-- ![1](https://user-images.githubusercontent.com/111676859/226197211-8abc5de5-7659-4811-b28a-ef885de64267.png)
 ---- -
 ![2](https://user-images.githubusercontent.com/111676859/226197288-1f0cf951-dd30-464f-b70a-10c449fe33b4.png)
 --- - 
