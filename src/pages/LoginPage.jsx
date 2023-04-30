@@ -1,5 +1,5 @@
 import LoginForm from "../components/LoginForm";
-import { handleLogin } from "../../api/firebase";
+import { handleLogin } from "../api/firebase";
 import { useNavigate, useActionData, useNavigation } from "react-router-dom";
 import useQuestionStore from "../store/zustand";
 import { useEffect } from "react";

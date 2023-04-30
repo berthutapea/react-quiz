@@ -1,4 +1,4 @@
-import { Types, Level } from "../constant";
+import { Types, Level } from "./constant/index";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import useQuestionStore from "./store/zustand";

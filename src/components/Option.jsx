@@ -1,4 +1,4 @@
-import { Idx } from "../../constant";
+import { Idx } from "../constant";
 
 function Option({ value, idx, handleClick, trueAnswer, userAnswer, summary }) {
   return (
