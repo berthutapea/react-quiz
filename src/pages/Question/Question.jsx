@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import useQuestionStore from "../store/zustand";
-import AnimateProvider from "../components/AnimateProvider";
+import useQuestionStore from "../../store/zustand";
+import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 
 function Question() {
   const { fetchQuestion, question: questionData } = useQuestionStore();

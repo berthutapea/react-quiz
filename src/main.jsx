@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import { action as registerAction } from "./pages/RegisterPage";
-import { action as loginAction } from "./pages/LoginPage";
+import { action as registerAction } from "./pages/Register/RegisterPage";
+import { action as loginAction } from "./pages/Login/LoginPage";
+import RootLayout from "./layout/RootLayout"
 
 import {
   createBrowserRouter,
@@ -16,7 +17,6 @@ import {
   LoginPage,
   Question,
   RegisterPage,
-  RootLayout,
   NotFound,
   SingleQuestion,
   RequireAuth,

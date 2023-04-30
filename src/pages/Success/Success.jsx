@@ -1,8 +1,8 @@
-import useQuestionStore from "../store/zustand";
+import useQuestionStore from "../../store/zustand";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import AnimateProvider from "../components/AnimateProvider";
-import Question from "../components/Question";
+import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
+import Question from "../../components/Questions/Questions";
 
 function Success() {
   const {

@@ -1,7 +1,7 @@
-import RegisterForm from "../components/RegisterForm";
-import { handleRegister } from "../api/firebase";
+import RegisterForm from "../../components/Form/RegisterForm";
+import { handleRegister } from "../../api/firebase";
 import { useNavigate, useActionData, useNavigation } from "react-router-dom";
-import AnimateProvider from "../components/AnimateProvider";
+import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import { useEffect } from "react";
 
 function RegisterPage() {

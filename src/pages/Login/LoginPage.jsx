@@ -1,9 +1,9 @@
-import LoginForm from "../components/LoginForm";
-import { handleLogin } from "../api/firebase";
+import LoginForm from "../../components/Form/LoginForm";
+import { handleLogin } from "../../api/firebase";
 import { useNavigate, useActionData, useNavigation } from "react-router-dom";
-import useQuestionStore from "../store/zustand";
+import useQuestionStore from "../../store/zustand";
 import { useEffect } from "react";
-import AnimateProvider from "../components/AnimateProvider";
+import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 
 function LoginPage() {
   const data = useActionData();

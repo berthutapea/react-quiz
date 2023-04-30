@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import useQuestionStore from "../store/zustand";
+import useQuestionStore from "../../store/zustand";
 
 function Navbar() {
   const { auth, logoutUser } = useQuestionStore();

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import useQuestionStore from "../store/zustand";
-import { getTimeByMs } from "../utils";
+import useQuestionStore from "../../store/zustand";
+import { getTimeByMs } from "../../utils";
 import { useNavigate } from "react-router-dom";
 
 const defaultCountdown = {

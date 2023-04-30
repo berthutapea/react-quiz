@@ -1,5 +1,5 @@
 import { Outlet, Navigate } from "react-router-dom";
-import useQuestionStore from "../store/zustand";
+import useQuestionStore from "../../store/zustand";
 
 function RequireAuth() {
   const { auth } = useQuestionStore();

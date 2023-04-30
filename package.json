@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.7",
-    "firebase": "^9.16.0",
+    "firebase": "^9.21.0",
     "framer-motion": "^8.5.2",
     "he": "^1.2.0",
     "react": "^18.2.0",

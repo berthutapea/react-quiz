@@ -1,9 +1,9 @@
-import useQuestionStore from "../store/zustand";
+import useQuestionStore from "../../store/zustand";
 import { useNavigate, useParams } from "react-router-dom";
-import TimeStamp from "../components/TimeStamp";
+import TimeStamp from "../../components/TimeStamp/TimeStamp";
 import { useEffect } from "react";
-import AnimateProvider from "../components/AnimateProvider";
-import Question from "../components/Question";
+import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
+import Question from "../../components/Questions/Questions";
 
 function SingleQuestion() {
   const navigate = useNavigate();

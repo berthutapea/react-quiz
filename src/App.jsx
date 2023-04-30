@@ -1,8 +1,8 @@
-import { Types, Level } from "./constant/index";
+import { Types, Level } from "./constant";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import useQuestionStore from "./store/zustand";
-import AnimateProvider from "./components/AnimateProvider";
+import AnimateProvider from "./components/AnimateProvider/AnimateProvider";
 
 function App() {
   const [type, setType] = useState(Types[0].id);

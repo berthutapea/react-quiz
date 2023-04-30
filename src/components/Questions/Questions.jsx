@@ -1,6 +1,6 @@
 import he from "he";
-import Option from "./Option";
-import useQuestionStore from "../store/zustand";
+import Option from "../Option/Option";
+import useQuestionStore from "../../store/zustand";
 
 function Question({ id, handleClick, singleQuestion, summary }) {
   const { incorrect_answers, correct_answer, question } = singleQuestion;
