@@ -28,7 +28,7 @@ function Navbar() {
           </button>
         ) : (
           <Link
-            className="py-2 transition px-5 text-neutral-50 font-semibold rounded-full bg-orange-600"
+            className="py-2 transition px-5 text-neutral-50 font-semibold rounded-full bg-orange-500"
             to={"/register"}
           >
             Register

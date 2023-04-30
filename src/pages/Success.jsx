@@ -55,7 +55,7 @@ function Success() {
 
       <button
         onClick={handleClick}
-        className="grid place-items-center text-neutral-50 bg-orange-600 rounded-full py-2 hover:text-neutral-50 text-sm font-semibold"
+        className="grid place-items-center text-neutral-50 bg-orange-500 rounded-full py-2 hover:text-neutral-50 text-sm font-semibold"
       >
         Back to dashboard
       </button>

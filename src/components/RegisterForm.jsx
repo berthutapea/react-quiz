@@ -73,7 +73,7 @@ function RegisterForm({ isSubmitting: loading }) {
         <button
           disabled={loading}
           className={`flex rounded-full ${!loading
-              ? "bg-orange-700 hover:bg-neutral-50 hover:text-orange-500"
+              ? "bg-orange-500 hover:bg-neutral-50 hover:text-orange-500"
               : "bg-orange-500/70 cursor-not-allowed"
             }  p-1 justify-center font-semibold md:font-bold text-base md:text-lg text-center mt-5 mb-3 transition text-white`}
           type="submit"
@@ -95,7 +95,7 @@ function RegisterForm({ isSubmitting: loading }) {
         </button>
         <p className="text-gray-600 text-xs font-semibold mt-3">
           Already have account ?
-          <Link className="ml-2 text-orange-600" to={"/login"}>
+          <Link className="ml-2 text-orange-500" to={"/login"}>
             Sign In
           </Link>{" "}
         </p>

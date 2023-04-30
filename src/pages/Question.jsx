@@ -30,7 +30,7 @@ function Question() {
 
         <div className="flex space-x-5">
           <p className="min-w-[170px]">Category </p>
-          <p className="font-bold text-orange-700">{questionData[0].category}</p>
+          <p className="font-bold text-orange-500">{questionData[0].category}</p>
         </div>
 
         <div className="flex space-x-5">
@@ -51,7 +51,7 @@ function Question() {
         onClick={() => {
           navigate(`/question/1`);
         }}
-        className="flex w-full rounded-full bg-orange-700 cursor-pointer disabled:bg-orange-700/50 disabled:cursor-not-allowed p-1 justify-center font-semibold md:font-bold text-base md:text-lg text-center mt-10 text-white hover:bg-orange-600"
+        className="flex w-full rounded-full bg-orange-500 cursor-pointer disabled:bg-orange-500/50 disabled:cursor-not-allowed p-1 justify-center font-semibold md:font-bold text-base md:text-lg text-center mt-10 text-white hover:bg-orange-500"
       >
         Start
       </button>
