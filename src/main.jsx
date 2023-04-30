@@ -17,7 +17,7 @@ import {
   Question,
   RegisterPage,
   RootLayout,
-  Error,
+  NotFound,
   SingleQuestion,
   RequireAuth,
   RequireLogout,
@@ -26,7 +26,7 @@ import {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />} errorElement={<Error />}>
+    <Route path="/" element={<RootLayout />} errorElement={<NotFound />}>
       <Route element={<RequireLogout />}>
         {/* User Need to logout */}
         <Route path="login" element={<LoginPage />} action={loginAction} />

@@ -6,4 +6,4 @@ export { default as SingleQuestion } from "./SingleQuestion";
 export { default as RequireAuth } from "./RequireAuth";
 export { default as RequireLogout } from "./RequireLogout";
 export { default as Success } from "./Success";
-export { default as Error } from "./Error";
+export { default as NotFound } from "./NotFound";

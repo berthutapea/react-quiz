@@ -23,7 +23,7 @@ function LoginForm({ loading }) {
           type="email"
           autoComplete="off"
           name="email"
-          placeholder="Email"
+          placeholder="Enter your email"
           className="bg-neutral-50 ring-[1px] ring-gray-200 rounded-lg p-2 md:p-3 placeholder:text-gray-300 text-xs md:text-sm focus:border-none placeholder:text-xs md:placeholder:text-sm focus:outline-none focus:ring-[1px] focus:ring-orange-500/80 "
         />{" "}
         <br />
@@ -39,7 +39,7 @@ function LoginForm({ loading }) {
           type="password"
           className="bg-neutral-50 ring-[1px] ring-gray-200 rounded-lg p-2 md:p-3 placeholder:text-gray-300 text-xs md:text-sm focus:border-none placeholder:text-xs md:placeholder:text-sm focus:outline-none focus:ring-[1px] focus:ring-orange-500/80"
           name="password"
-          placeholder="Password"
+          placeholder="Enter your password"
         />
         <br />
         <button
