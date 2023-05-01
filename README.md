@@ -111,27 +111,21 @@ This project was created using the following technologies.
  
 
 
-<!-- ![1](https://user-images.githubusercontent.com/111676859/226197211-8abc5de5-7659-4811-b28a-ef885de64267.png)
+![img-1](https://user-images.githubusercontent.com/111676859/235448791-4dc03043-834d-4cc6-986f-d73eb120b73e.png)
 ---- -
-![2](https://user-images.githubusercontent.com/111676859/226197288-1f0cf951-dd30-464f-b70a-10c449fe33b4.png)
+![img-2](https://user-images.githubusercontent.com/111676859/235448776-8d6eeeae-0bc6-42c0-9886-01b337a1c060.png)
 --- - 
-![3](https://user-images.githubusercontent.com/111676859/226197295-e9525dd5-1346-4951-a1c8-d5620166d7aa.png)
+![img-3](https://user-images.githubusercontent.com/111676859/235448778-4da1fae9-5eeb-4436-9658-4366ac4f60cf.png)
 --- - 
-![4](https://user-images.githubusercontent.com/111676859/226197298-ca0f5b6e-f523-4040-98a8-b92a17bbe22e.png)
+![img-4](https://user-images.githubusercontent.com/111676859/235448781-6b7e71d7-aff0-4d8d-8dc4-3a17f0442c45.png)
 --- - 
-![5](https://user-images.githubusercontent.com/111676859/226197303-5d8a1a39-07f7-409f-8614-12d0ca0b2836.png)
+![img-5](https://user-images.githubusercontent.com/111676859/235448786-99ad55ea-6d3b-42f7-b850-7a689af1f905.png)
 --- - 
-![6](https://user-images.githubusercontent.com/111676859/226197307-1d95a1f6-147a-4edb-b899-449c90c07713.png)
+![img-6](https://user-images.githubusercontent.com/111676859/235448787-74e9c56c-7bf4-403f-9b65-540648687548.png)
 --- - 
 ![7](https://user-images.githubusercontent.com/111676859/226197312-b7bf6ae6-2c05-4b1d-bc25-4262af3f04f2.png)
 --- - 
-![8](https://user-images.githubusercontent.com/111676859/226197316-eb387e87-9690-44ca-b138-f15b03bed7d4.png)
---- - 
-![9](https://user-images.githubusercontent.com/111676859/226197324-dcbad05b-2283-4ef5-bae9-2da8d09d55c9.png)
---- - 
-![10](https://user-images.githubusercontent.com/111676859/226197329-025091a0-642b-4d68-ac4e-f365e0e78e82.png)
---- - 
-![11](https://user-images.githubusercontent.com/111676859/226197338-3e530bc6-e7bf-4e4a-9284-165f85be47d2.png) -->
+![img-7](https://user-images.githubusercontent.com/111676859/235448789-2e077d59-cf47-42b2-bdf1-db88ab2baa6a.png)
 
 
 
